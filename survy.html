@@ -1,0 +1,108 @@
+<style>
+    body {
+  background-color: lightblue;
+}
+h1{
+text-align:center;
+  font-family:sans-serif;
+} 
+p{
+  font-family:sans-serif;
+  text-align:center;
+}
+form{
+    text-align:center;
+}
+#name{
+      width:50%;
+  padding:0.5em;
+} 
+#email{
+       width:50%;
+  padding:0.5em;
+}
+#number{
+         width:50%;
+      padding:0.5em;
+  
+}
+#dropdown{
+           width:50%;
+          padding:0.1em;
+}
+#text{
+  padding:2em;
+  width:50%;
+}
+#submit{
+   padding:0.5em;
+  width:50%;
+  background-color:rgb(0, 255, 149);
+}
+
+</style>
+<h1 id="title">Get Job Online Survey Form</h1>
+<p id="description">This page makes you get a job in the region that you choose so enter your personal information and get a job online </p>
+<form id="survey-form">
+  <label for="name">name :</name>
+  <input id="name" type="text" required placeholder="entre your name"/>
+  <br>
+  <br>
+  <label id="name-label">
+  <label id="email-label" for="email">email :</label>
+  <input id="email" type="email" required placeholder="entre your email"/>
+  <br>
+  <br>
+  <label id="number-label"  for="age">age :</label>
+  <input id="number" type="number" min="10" max="99" required placeholder="entre your age"/>
+  <br>
+  <br>
+    </label>
+      <p>Which option best describes your current situation?</p>
+  <select id="dropdown">
+    <option value="">--select current job--</option>
+    <option value="student">student</option>
+    <option value="full-time job">full-time job</option>
+    <option value="part-time job">part-time job</option>
+    <option value="without work">without work</option>
+  </select>
+<br>
+  <br>
+  
+   <p>Would you recommend freeCodeCamp to a friend?</p>
+ 
+ 
+<input type="radio" id="Definitely"  name="Maybe"  value="Definitely">
+   <label for="Definitely">Definitely </label>
+  <br>
+  <br>
+     
+  <input type="radio" id="Maybe"  name="Maybe"  value="Maybe">
+    <label for="Maybe">Maybe</label>
+    
+  <br>
+  <br>
+
+ <input type="radio"  id="not sure"  name="Maybe" value="not sure">
+     <label for="not sure">not sure </label>
+  <br>
+  <br>
+     <p>How do you want to get a job? </p>
+  <input type="checkbox" id ="immediately" name="immediately" value="immediately">
+  <label for="immediately">immediately</label>
+    <br>
+  <br>
+   <input type="checkbox" id="few weeks" name="immediately" value="few weeks">
+  <label for="few weeks">few weeks</label>
+    <br>
+  <br>
+  <input type="checkbox" id="few months" name="immediately" value="few months">
+  <label for="few months">few months</label>
+    <br>
+  <br>
+  <textarea placeholder="entre your comment here..."></textarea>
+      <br>
+       <br>
+  <button id="submit" type="submit">submit</button> 
+  </form>
+  

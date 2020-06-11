@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html>
+    <style>
+       
+        h1{
+            color: red;
+            font-family: monospace;
+            cen
+        }
+        p{
+            color: darkblue;
+        }
+        h3{
+            color: darkmagenta;
+            font-family: monospace;
+
+        }
+        .background{
+            background-color:khaki;
+        
+            
+        }
+        #hlb {
+            animation-name:colorful;
+            animation-duration: 10s;
+            animation-fill-mode:forwards;
+        }
+        @keyframes colorful {
+            0%{
+                background-color: crimson;
+            }
+            50%{
+                background-color: darkblue;
+            }
+            100%{
+                background-color: gold;
+            }
+            
+        }
+        button{
+            color: honeydew;
+            background-color:red ;
+            border-radius: 50;
+        }
+        button:hover{
+           animation-name: background-color;
+           animation-duration: 500ms;
+           animation-fill-mode:forwards;
+        }
+        @keyframes background-color {
+            100%{
+                background-color:blue;
+            }
+            
+        }
+
+    </style>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>my 2nd page </title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <center> <div  id='hlb' class="background">
+  <h1>to my first page</h1>
+  <label for="Username">Username: </label> 
+  <input type="text" id="Username" name="Username:" placeholder="Username" required >
+  
+   <p></p>
+   <label for="password">password:</label>
+   <input type="text" id="password" name="password" placeholder="password" required>
+    <br>
+    <br>
+    <input type="checkbox" <p>remeber me</p> 
+ <fieldset>
+     <legend>
+    <p>gender</p>
+    <input type="radio" name="gender">male
+    
+    <input type="radio" name="gender">female
+</legend>
+</fieldset>
+    <br>
+    <br>
+
+<h3>date of sing up :</h3>
+<input type="date" >
+
+<button>submit</button> 
+</div></center>
+
+</body>
+</html>

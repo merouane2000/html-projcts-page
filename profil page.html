@@ -1,0 +1,142 @@
+<html>
+    <style>
+        h1{
+            font-size: 35px;
+        }
+        p{
+            font-size: 20px;
+        }
+        #welcome-section{
+            display: flex;
+            height: 500px;
+         justify-content: center;
+         align-items: center;
+         text-align: center;
+        }
+        #projects{
+            height: 500px;
+            text-align: center;
+        }
+        .row{
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+        }
+        .column{
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+        }
+        /* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+ 
+        @media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+    </style>
+
+<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<header>
+    <script>
+        src="https://kit.fontawesome.com/1b49d7e787-js"
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</header>
+<!-- Top Navigation Menu -->
+<div class="topnav">
+    <div class="profile-links">
+  <a href="#https://github.com/merouane2000" id="profile-link" class="active"><i class="fab fa-github"></i></a></div>
+  <!-- Navigation links (hidden by default) -->
+  <div id="myLinks">
+    <a href="#projects">projects</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+  </div>
+  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<script>/* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}</Script>
+
+
+   <section id="welcome-section">
+       <div>
+           <h1>back end developer</h1>
+           <p>merouane mohamed elamine</p>
+       </div>
+   </section>
+   <section id="projects">
+       <h1>projects</h1>
+       <div class="grid-contairet">
+           <div class="row">
+               <div class="column">
+                <iframe height="265" style="width: 100%;" scrolling="no" title="Survey Form page" src="https://codepen.io/MerouaneMohamedElamine/embed/NWxqMoj?height=265&theme-id=light&default-tab=html,result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+                    See the Pen <a href='https://codepen.io/MerouaneMohamedElamine/pen/NWxqMoj'>Survey Form page</a> by Merouane.Mohamed.Elamine
+                    (<a href='https://codepen.io/MerouaneMohamedElamine'>@MerouaneMohamedElamine</a>) on <a href='https://codepen.io'>CodePen</a>.
+                  </iframe>
+               </div>
+               <div class="column project-tile">
+                <iframe height="265" style="width: 100%;" scrolling="no" title="Survey Form page" src="https://codepen.io/MerouaneMohamedElamine/embed/NWxqMoj?height=265&theme-id=light&default-tab=html,result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+                    See the Pen <a href='https://codepen.io/MerouaneMohamedElamine/pen/NWxqMoj'>Survey Form page</a> by Merouane.Mohamed.Elamine
+                    (<a href='https://codepen.io/MerouaneMohamedElamine'>@MerouaneMohamedElamine</a>) on <a href='https://codepen.io'>CodePen</a>.
+                  </iframe>
+               </div>
+           </div>
+       </div>
+
+   </section>
+
+</html>
